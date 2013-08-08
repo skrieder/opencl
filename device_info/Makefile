@@ -1,0 +1,1 @@
+gcc -o cldemo -std=gnu99 -Wall -L/usr/lib/libOpenCL.so -I/usr/local/cuda-5.0/include cldemo.c -lOpenCL
